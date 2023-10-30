@@ -1,0 +1,54 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: Gotham Rounded, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.calculator {
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url('https://cdn.pixabay.com/photo/2017/07/25/01/22/cat-2536662_1280.jpg'); 
+    background-size: 175px;
+    width: 300px;
+    height: 425px;
+    border: 2px solid;
+}
+
+.btns {
+    width: 232px;
+    display: flex;
+    flex-wrap: wrap;
+}
+button {
+    background-color: white;
+    border: 1px;
+    color: black;
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 4px;
+}
+
+
+.display {
+    width: 224px;
+    background-color: white;
+    text-align: end;
+    padding: 4px;
+}
+
+.clear {
+    width: 100%;
+}

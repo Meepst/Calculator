@@ -1,1 +1,2 @@
 # Calculator
+Creating a very basic calculator with css, javascript, and html with the essential functions subtract, addition, divide, and multiply along with a numpad and the ability to quickly reset the calculator. 
